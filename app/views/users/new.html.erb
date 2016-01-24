@@ -1,8 +1,10 @@
-<%= form_for @user, :url => users_path, :html => { :multipart => true } do |form| %>
+<h1>Sign your name and upload a pic!</h1>
+
+<h2><%= form_for @user, :url => users_path, :html => { :multipart => true } do |form| %>
   <%= form.label :username %>
   <%= form.text_field :username %><br><br>  
-  <%= form.file_field :avatar %> <br><br>
-  <%= form.submit %>
+  <%= form.file_field :avatar %><br><br>
+  <%= form.submit 'UP-LOAD!'%></h2>
 <% end %>
-<br><br><br><br><br><br>
-<%= image_tag @user.avatar.url(:medium) %>
+<br>
+<h2><%= link_to 'Show all Page', users_path %></h2>

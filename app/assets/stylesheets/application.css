@@ -1,3 +1,14 @@
+h1{
+	font-size: 400%;
+	text-align: center;
+}
+
+body{
+	text-align: center;
+	background-image: url('/assets/paperclip-bkgd.jpg');
+	background-size: 200%;
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
