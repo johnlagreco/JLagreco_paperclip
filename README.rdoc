@@ -1,1 +1,1 @@
-Create a simple app that implements paper clip to allow a user to upload a file. The app only needs to have one model.
+I created a simple app that implements the paper clip gem which allows a user to upload an image file. The app only needs to have one model for this example project.
